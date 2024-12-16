@@ -1,53 +1,71 @@
+# CodTech IT Internship Repository
 
-
-## CodTech IT Internship Repository
-
-Welcome to the CodTech IT Internship in Artificial Inteligence  Repository! This repository contains two major projects showcasing our work in **Natural Language Processing (NLP)** and **Computer Vision**, which are critical subfields of Artificial Intelligence. Below is a brief overview of each task:
-![image](https://github.com/user-attachments/assets/32205a48-b4f2-4b4d-ac1c-e15371807ddc)
+Welcome to the **CodTech IT Internship in Artificial Intelligence** Repository!  
+This repository showcases two major projects that demonstrate practical applications of **Natural Language Processing (NLP)** and **Computer Vision**, two critical subfields of Artificial Intelligence. Each project focuses on solving real-world problems using cutting-edge AI techniques.
 
 ---
 
-### Task Three: Natural Language Processing (NLP) - Sentiment Analysis of Flipkart Product Reviews
+## **Task Three: Natural Language Processing (NLP) - Sentiment Analysis of Flipkart Product Reviews**
 
-This project focuses on analyzing customer reviews for the "YONEX MAVIS 350 Nylon Shuttle" on Flipkart. The goal is to classify reviews as **positive** or **negative** and extract insights from negative feedback to identify common customer pain points. This information can guide product improvements.
+### Objective:
+Analyze customer reviews for the *"YONEX MAVIS 350 Nylon Shuttle"* on Flipkart to:
+1. **Classify reviews** as positive or negative.
+2. **Extract insights** from negative reviews to identify common customer pain points, aiding product improvement strategies.
 
-#### Key Steps:
+### Key Steps:
+1. **Dataset**:
+   - **Size**: 8,518 reviews.
+   - **Attributes**: Includes *Rating*, *Review Text*, *Up Votes*, and *Down Votes*.
 
-1. **Dataset:**  
-   A collection of 8,518 reviews with attributes like Rating, Review Text, Up Votes, and Down Votes.
+2. **Model Selection**:
+   - **For faster training and decent accuracy**: Naive Bayes with Bag-of-Words (BoW).
+   - **For higher accuracy**: 
+     - Logistic Regression with BERT.
+     - Random Forest with TF-IDF.
 
-2. **Model Selection:**  
-   - For faster training and decent accuracy: **Naive Bayes with Bag-of-Words (BOW).**  
-   - For higher accuracy: **Logistic Regression with BERT** or **Random Forest with TF-IDF.**
-
-3. **Final Recommendation:**  
-   - **Logistic Regression with BERT** is the best choice for deployment, offering high accuracy (F1 score), efficient training times, and minimal latency.  
-     This makes it ideal for practical applications where performance and efficiency are critical.
-
----
-
-### Task Four: Computer Vision - Image Classification Using MNIST Dataset
-
-This project applies computer vision techniques to the **MNIST dataset**, a widely-used dataset of handwritten digits. The objective is to classify digits (0-9) based on their pixel values, enabling machines to recognize handwritten numbers accurately.
-
-#### Key Steps:
-
-1. **Dataset:**  
-   The MNIST dataset includes 372000  images with  each of size 28x28 pixels.
-
-2. **Approach:**  
-   Train a machine learning model to identify digits based on image data.
-
-3. **Outcome:**  
-   Develop a model capable of high accuracy in digit recognition for potential applications in digit-based automation.
+3. **Final Recommendation**:
+   - **Logistic Regression with BERT** is the optimal choice due to:
+     - **High accuracy** (F1 score).
+     - **Efficient training times**.
+     - **Minimal latency** for real-time applications.
+   - This combination ensures a balance of performance and efficiency, making it ideal for deployment in practical scenarios.
 
 ---
 
-### Conclusion
+## **Task Four: Computer Vision - Image Classification Using the MNIST Dataset**
 
-Both tasks demonstrate the use of cutting-edge AI techniques to solve real-world problems.
+### Objective:
+Develop a model to classify handwritten digits (0-9) using the MNIST dataset. This enables accurate recognition of digits for potential automation in various industries.
 
-- **Task Three** focuses on analyzing text data for sentiment classification and extracting actionable insights.
-- **Task Four** showcases the use of image data for automated digit recognition.
+### Key Steps:
+1. **Dataset**:
+   - **Size**: 372,000 images.
+   - **Image Dimensions**: Each image is 28x28 pixels in grayscale.
 
-These projects highlight the practical applications of AI in improving customer experiences and enabling automation.
+2. **Approach**:
+   - Train machine learning models to classify digits based on their pixel values.
+   - Apply computer vision techniques to achieve high recognition accuracy.
+
+3. **Outcome**:
+   - The model demonstrated high accuracy in digit recognition, making it suitable for applications like automated data entry and digit-based systems.
+
+---
+
+## **Conclusion**
+
+The projects in this repository highlight the versatility and power of Artificial Intelligence in solving diverse real-world challenges.
+
+1. **Task Three** demonstrates the use of **NLP** for sentiment classification and extracting actionable insights to enhance customer experiences and guide product improvements.
+2. **Task Four** showcases **Computer Vision** techniques for digit recognition, enabling automation in digit-based applications.
+
+These tasks reflect the practical applications of AI in both text and image data domains, providing valuable solutions to modern-day challenges.
+
+---
+
+### **Repository Contents**
+- `Task_Three_NLP_Flipkart_Reviews.ipynb`: Code and analysis for Task Three.
+- `Task_Four_Computer_Vision_MNIST.ipynb`: Code and implementation for Task Four.
+
+---
+
+Feel free to explore the projects and gain insights into how AI can address real-world problems efficiently and effectively!
